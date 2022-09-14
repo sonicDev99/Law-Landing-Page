@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+.container {
+    background-color: #2b2922;
+    min-height: 100vh;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+section[aria-label='navbar'] {
+    padding: 16px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.navbar div:nth-child(2) {
+    position: relative;
+    right: -6rem;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    gap: 48px;
+    color: #d2d1cf;
+}
+
+.list-item:nth-child(1) {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.button-small {
+    background-color: transparent;
+    padding: 14px 24px;
+    border: 1px solid #928334;
+    color: #928334;
+    border-radius: 6px;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+section[aria-label='hero'] {
+    margin-top: 30px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+    gap: 48px;
+    margin-bottom: 60px;
+}
+
+.hero-heading {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero-body {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.img-container {
+    height: 40rem;
+    background-image: url(./assets/justice.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom div {
+    display: flex;
+    justify-content: flex-end;
+}
+.bottom div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+}
+
+.bottom div div:nth-child(1) {
+    background-color: #39372d;
+}
+.bottom div div:nth-child(2) {
+    background-color: #a08f36;
+}
+
+.bottom div div div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.button-large-next {
+    background-color: #a08f36 !important;
+}
+
+.button-large-prev {
+    border: 1px solid #948535 !important;
+}
