@@ -1,4 +1,4 @@
-# **Justice Home Page**
+# **Law Landing Page**
 
 ## 💻 **Tech Stack** :
 
@@ -15,12 +15,7 @@
 
 ---
 
-<a href='#'>
-  
-## 👉 <img src='https://img.shields.io/badge/Live_preview-blue?style=for-the-badge'>
-  
-</a>
-
+## 👉 [![homepage](https://img.shields.io/badge/Live_preview-blue?style=for-the-badge)](https://sunny-cassata-04f8d2.netlify.app/ 'Redirect to homepage')
 
 ---
 
@@ -28,7 +23,7 @@
 
 -   ### Desktop view
 
-![Justice Home Page](./assets/screenshotDesktop.png)
+![Law Home Page](./assets/screenshotDesktop.png)
 
 ---
 
